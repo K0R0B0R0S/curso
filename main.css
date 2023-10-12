@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.container > *{
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.container input{
+    height: 30px;
+    font-size: 15px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    font-size: 15px;
+    padding: 2px;
+}
+
+#output{
+    font-size: 17px;
+    padding: 2px;
+}
+
+.valido{
+    background-color: rgba(38, 255, 0, 0.5);
+}
+
+.invalido{
+    background-color: rgba(255, 0, 38, 0.5);
+}
+
+
